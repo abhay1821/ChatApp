@@ -32,15 +32,17 @@ class _AuthFormState extends State<AuthForm> {
                     obscureText: true,
                   ),
                   SizedBox(height: 12),
+                  // ignore: deprecated_member_use
                   RaisedButton(
                     child: Text('Login'),
                     onPressed: () {},
                   ),
+                  // ignore: deprecated_member_use
                   FlatButton(
                     textColor: Theme.of(context).primaryColor,
                     child: Text('Create new account'),
                     onPressed: () {},
-                  )
+                  ),
                 ],
               ),
             ),
